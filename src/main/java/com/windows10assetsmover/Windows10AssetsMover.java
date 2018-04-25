@@ -33,5 +33,6 @@ public class Windows10AssetsMover {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        
     }
 }

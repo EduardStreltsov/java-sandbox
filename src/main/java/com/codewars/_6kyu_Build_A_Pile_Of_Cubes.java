@@ -14,4 +14,14 @@ findNb(91716553919377) --> -1*/
 
 public class _6kyu_Build_A_Pile_Of_Cubes {
     
+    public static long findNb(long m) {
+        
+//        Math.
+        
+        
+        
+        
+        return 0L;
+    }
+    
 }

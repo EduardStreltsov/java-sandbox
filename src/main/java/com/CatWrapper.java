@@ -1,4 +1,4 @@
-package main.java.com;
+package com;
 
 public class CatWrapper extends Cat {
 
@@ -18,4 +18,9 @@ public class CatWrapper extends Cat {
 //    {
 //        original.setName(name);
 //    }
+    
+    @Override
+    public void sound() throws NullPointerException {
+        super.sound();
+    }
 }

@@ -1,4 +1,4 @@
-package main.java.com;
+package com;
 
 public class Cat {
 
@@ -18,4 +18,9 @@ public class Cat {
 
         this.name = name;
     }
+    
+    public void sound() {
+    
+    }
+ 
 }
