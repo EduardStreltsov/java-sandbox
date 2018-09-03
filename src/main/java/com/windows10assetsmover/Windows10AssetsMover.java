@@ -27,12 +27,16 @@ public class Windows10AssetsMover {
             n++;
         }
         System.out.println("" + n + " files successfully copied");
-        
+    
+        openTargetFolder();
+    
+    }
+    
+    private static void openTargetFolder() {
         try {
             Desktop.getDesktop().open(new File("D:\\Pictures\\Desktop"));
         } catch (IOException e) {
             e.printStackTrace();
         }
-        
     }
 }
